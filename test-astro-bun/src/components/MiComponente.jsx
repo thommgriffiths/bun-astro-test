@@ -5,6 +5,7 @@ const MiComponente = () => {
 
     useEffect(() => {
         setInterval(() => {
+            console.log("me ejecute")
            setContador(contador + 1)
         }, 1000)
     }, [])
